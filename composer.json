@@ -1,5 +1,5 @@
 {
-    "name": "openbuildings/spiderling",
+    "name": "openbuildings/environment-backup",
     "description": "Backup/restore environment variables: globals, static vars, configs",
     "license": "BSD-3-Clause",
     "authors": [
