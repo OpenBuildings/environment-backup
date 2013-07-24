@@ -3,8 +3,10 @@
 namespace Openbuildings\EnvironmentBackup;
 
 /**
-* 
-*/
+ * @package Openbuildings\EnvironmentBackup
+ * @author Ivan Kerin
+ * @copyright  (c) 2011-2013 Despark Ltd.
+ */
 class Environment_Group_Static implements Environment_Group {
 
 	/**
