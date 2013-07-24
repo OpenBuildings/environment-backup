@@ -3,8 +3,12 @@
 namespace Openbuildings\EnvironmentBackup;
 
 /**
-* 
-*/
+ * Used in testing
+ * 
+ * @package Openbuildings\EnvironmentBackup
+ * @author Ivan Kerin
+ * @copyright  (c) 2011-2013 Despark Ltd.
+ */
 class Environment_Group_Dummy implements Environment_Group {
 
 	public $variables = array();
