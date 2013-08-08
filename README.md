@@ -1,4 +1,8 @@
-Backup/restore environment variables: globals, static vars, kohana configs
+# Environment Backup [![Build Status](https://travis-ci.org/OpenBuildings/environment-backup.png)](https://travis-ci.org/OpenBuildings/environment-backup) [![Coverage Status](https://coveralls.io/repos/OpenBuildings/environment-backup/badge.png?branch=master)](https://coveralls.io/r/OpenBuildings/environment-backup?branch=master)
+
+Set environment variables: globals, static vars, kohana configs etc. and later restore their original values. This is useful testing when you want to have a specific environment set for the test, but don't want that test to affect other code outside of it.
+
+The environment class is initialized with some environment groups, each handling specific type of environment. You can easily add more classes to handle different environments.
 
 Each environment group that you add allows has a unique name of "naming" its variables so that it knows how to handle their backup
 
@@ -26,3 +30,9 @@ $environment->backup_and_set(array(
 
 $environment->restore();
 ```
+
+## License
+
+Copyright (c) 2012-2013, OpenBuildings Ltd. Developed by Ivan Kerin as part of [clippings.com](http://clippings.com)
+
+Under BSD-3-Clause license, read LICENSE file.

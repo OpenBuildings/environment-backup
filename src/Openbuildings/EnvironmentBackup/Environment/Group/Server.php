@@ -3,9 +3,10 @@
 namespace Openbuildings\EnvironmentBackup;
 
 /**
- * @package Openbuildings\EnvironmentBackup
- * @author Ivan Kerin
- * @copyright  (c) 2011-2013 Despark Ltd.
+ * @package    Openbuildings\EnvironmentBackup
+ * @author     Ivan Kerin
+ * @copyright  (c) 2013 OpenBuildings Ltd.
+ * @license    http://spdx.org/licenses/BSD-3-Clause
  */
 class Environment_Group_Server implements Environment_Group {
 
