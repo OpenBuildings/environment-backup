@@ -1,5 +1,7 @@
 <?php
 
+namespace Openbuildings\EnvironmentBackup\Test\EnvironmentGroup;
+
 use Openbuildings\EnvironmentBackup\Environment_Group_Server;
 use Openbuildings\EnvironmentBackup\Environment_Notset;
 
@@ -8,7 +10,7 @@ use Openbuildings\EnvironmentBackup\Environment_Notset;
  * @group   environment
  * @group   environment.server
  */
-class Environment_Group_ServerTest extends PHPUnit_Framework_TestCase {
+class Environment_Group_ServerTest extends \PHPUnit_Framework_TestCase {
 
 	public function test_methods()
 	{
