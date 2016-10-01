@@ -1,5 +1,7 @@
 <?php
 
+namespace Openbuildings\EnvironmentBackup\Test;
+
 use Openbuildings\EnvironmentBackup\Environment_Group_Dummy;
 use Openbuildings\EnvironmentBackup\Environment;
 
@@ -7,7 +9,7 @@ use Openbuildings\EnvironmentBackup\Environment;
  * @package Openbuildings\EnvironmentBackup
  * @group   environment
  */
-class EnvironmentTest extends PHPUnit_Framework_TestCase {
+class EnvironmentTest extends \PHPUnit_Framework_TestCase {
 
 	public function test_construct()
 	{

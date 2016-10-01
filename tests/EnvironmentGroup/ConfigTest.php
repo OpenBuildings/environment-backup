@@ -1,5 +1,7 @@
 <?php
 
+namespace Openbuildings\EnvironmentBackup\Test\EnvironmentGroup;
+
 use Openbuildings\EnvironmentBackup\Environment_Group_Config;
 
 /**
@@ -7,13 +9,13 @@ use Openbuildings\EnvironmentBackup\Environment_Group_Config;
  * @group   environment
  * @group   environment.config
  */
-class Environment_Group_ConfigTest extends PHPUnit_Framework_TestCase {
+class Environment_Group_ConfigTest extends \PHPUnit_Framework_TestCase {
 
 	public function test_methods()
 	{
 		$group = new Environment_Group_Config;
 
-		Kohana::$config->load('environment-test')->set('test', 'test value');
+		\Kohana::$config->load('environment-test')->set('test', 'test value');
 
 		$this->assertEquals('test value', $group->get('environment-test.test'));
 		$this->assertEquals(NULL, $group->get('environment-test.new'));

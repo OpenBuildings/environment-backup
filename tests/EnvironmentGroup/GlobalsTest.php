@@ -1,5 +1,7 @@
 <?php
 
+namespace Openbuildings\EnvironmentBackup\Test\EnvironmentGroup;
+
 use Openbuildings\EnvironmentBackup\Environment_Group_Globals;
 
 /**
@@ -7,7 +9,7 @@ use Openbuildings\EnvironmentBackup\Environment_Group_Globals;
  * @group   environment
  * @group   environment.globals
  */
-class Environment_Group_GlobalsTest extends PHPUnit_Framework_TestCase {
+class Environment_Group_GlobalsTest extends \PHPUnit_Framework_TestCase {
 
 	public function test_methods()
 	{
